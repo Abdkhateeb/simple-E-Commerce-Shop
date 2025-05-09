@@ -6,7 +6,7 @@ from .Serializers import ProductSerializer
 
 
 
-class ProductListApi(generics.ListCreateAPIView):
+class ProductListApi(generics.ListAPIView):
     """
     API view to retrieve list of products or create a new product.
     """
