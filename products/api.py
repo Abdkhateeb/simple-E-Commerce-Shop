@@ -26,7 +26,7 @@ class ProductDetailApi(generics.RetrieveAPIView):
     queryset = Product.objects.all()
     serializer_class = ProductSerializer
     
-class ProductUpdateApi(generics.UpdateAPIView): 
+class ProductUpdateApi(generics.RetrieveUpdateAPIView): 
     """
     API view to update a product.
     """
@@ -38,4 +38,6 @@ class ProductDeleteApi(generics.DestroyAPIView):
     API view to delete a product.
     """
     queryset = Product.objects.all()
-    serializer_class = ProductSerializer    
+    serializer_class = ProductSerializer
+    
+
