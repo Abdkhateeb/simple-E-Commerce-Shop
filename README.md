@@ -1,6 +1,9 @@
 # Muckie Backend
 
-## Overview
+## Project Overview
+
+![Simple E-Commerce Shop](Simple%20E-Commerce%20Shop.png)
+
 Muckie Backend is a Django-based backend application designed to manage products. It provides an admin interface for managing product data and APIs for interacting with the product catalog.
 
 ## Features
